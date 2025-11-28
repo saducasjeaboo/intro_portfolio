@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Intro Portfolio</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f6f8fb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    .container {
+      width: 900px;
+      max-width: 95%;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 { margin: 0; }
+    .subtitle { margin-bottom: 20px; color: #555; }
+
+    /* 16:9 Responsive Video */
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 ratio */
+      height: 0;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+    }
+    footer a {
+      color: #0d6efd;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>INTRO PORTFOLIO</h1>
+    <p class="subtitle">BSIT 1-C</p>
+
+    <!-- Responsive 16:9 YouTube Video -->
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/N0ZHHosA1pQ?rel=0&modestbranding=1&controls=1"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <footer>
+    Made by 
+    <a href="https://saducasjeaboo.github.io/my-web/" target="_blank">
+      Jeabo Ray Saducas
+    </a>
+  </footer>
+
+</body>
+</html>
